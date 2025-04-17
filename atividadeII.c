@@ -25,7 +25,7 @@ int main() {
         printf("Digite a nota G2: ");
         scanf("%f", &alunos[quantidade].g2);
 
-        
+
         alunos[quantidade].media = (alunos[quantidade].g1 + alunos[quantidade].g2) / 2;
 
         quantidade++;
@@ -51,7 +51,7 @@ printf("G1: %.2f, G2: %.2f, Média: %.2f\n", alunos[0].g1, alunos[0].g2, alunos[
     printf("\nAlunos cadastrados:\n");
     for (int i = 0; i < quantidade; i++) {
         printf("Aluno: Matrícula %d, media %.2f\n",
-               i + 1, alunos[i].matricula, alunos[i].media);
+            alunos[i].matricula, alunos[i].media);
     }
 
 printf("\nAlunos de substituição:\n");
